@@ -1,1 +1,1 @@
-# ARM_PMU_TEST
+# ARM PMU test
