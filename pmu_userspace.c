@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#define 100
 static inline void asm_counter_enable(unsigned long val)
 {
 	asm volatile("mcr p15, 0, %0, c9, c12, 1": : "r"(val));
